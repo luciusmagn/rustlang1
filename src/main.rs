@@ -20,4 +20,6 @@ fn main()
     example2::example2();
 	println!("{}", Yellow.paint("Example 3 output:\n"));
 	example3::example3();
+	println!("{}", Yellow.paint("Example 4 output:\n"));
+	example4::example4();
 }
