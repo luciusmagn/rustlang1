@@ -1,15 +1,13 @@
 //standard types
 use std::{i8, i16, i32, i64, u8, u16, u32, u64, isize, usize, f32, f64};
 
-use std::io::stdin;
-
 pub fn example1()
 {
 	xprintln!("Hello, world!");
 
 	let num = 10;
-
-	let mut age: i32 = 12345678;
+	xprintln!("num: {}", num);
+	let age: i32 = 12345678;
 
 	xprintln!("Max i8: {}", i8::MAX);
 	xprintln!("Min i8: {}", i8::MIN);

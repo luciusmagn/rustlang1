@@ -1,6 +1,5 @@
 //macro for indenting examples
 
-#![macro_escape]
 #[macro_export]
 macro_rules! xprintln {
     () => (print!("\n"));

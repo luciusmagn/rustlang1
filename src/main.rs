@@ -14,12 +14,12 @@ use ansi_term::Colour::*;
 
 fn main()
 {
-	println!("{}", Yellow.paint("Example 1 output:\n"));
+	println!("{}", Yellow.paint("Example 1 output:"));
     example1::example1();
-	println!("{}", Yellow.paint("Example 2 output:\n"));
+	println!("{}", Yellow.paint("\nExample 2 output:"));
     example2::example2();
-	println!("{}", Yellow.paint("Example 3 output:\n"));
+	println!("{}", Yellow.paint("\nExample 3 output:"));
 	example3::example3();
-	println!("{}", Yellow.paint("Example 4 output:\n"));
+	println!("{}", Yellow.paint("\nExample 4 output:"));
 	example4::example4();
 }
