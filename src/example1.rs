@@ -38,10 +38,14 @@ pub fn example1()
 	xprintln!("Min f64: {}", f64::MIN);
 
 	let is_it_true: bool = true;
+	xprintln!("Is true true? {} is true", is_it_true);
 
 	let let_x: char = 'x';
+	xprintln!("This is my letter: {}", let_x);
 
 	xprintln!("I am {} years old", age);
 
 	let (f_name, l_name) = ("Lukáš", "Hozda");
+
+	xprintln!("My name is {} {}", f_name, l_name);
 }
