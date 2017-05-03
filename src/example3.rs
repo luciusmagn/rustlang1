@@ -6,7 +6,7 @@ pub fn example3()
 	xprintln!("5 / 4 = {}", 5 / 4);
 	xprintln!("5 % 4 = {}", 5 % 4);
 
-	let mut neg_4 = -4i32;
+	let neg_4 = -4i32;
 
     xprintln!("abs(-4) = {}", neg_4.abs());
     xprintln!("4 ^ 6 = {}", 4i32.pow(6));
