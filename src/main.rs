@@ -41,4 +41,5 @@ fn main()
 	example(&example12);
 	example(&example13);
 	example(&example14);
+	example(&example15);
 }
