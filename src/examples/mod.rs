@@ -7,6 +7,7 @@ mod example6;
 mod example7;
 mod example8;
 mod example9;
+mod example10;
 
 pub use self::example1::example1;
 pub use self::example2::example2;
@@ -17,3 +18,4 @@ pub use self::example6::example6;
 pub use self::example7::example7;
 pub use self::example8::example8;
 pub use self::example9::example9;
+pub use self::example10::example10;
