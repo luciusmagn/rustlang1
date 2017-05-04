@@ -1,6 +1,4 @@
 # Rust language examples
-======================
-
 This repository contains examples of the Rust language
 written according to the Rust tutorial video by Derek
 Banas. The code here is split to many files, one for
