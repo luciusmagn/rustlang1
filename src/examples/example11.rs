@@ -1,11 +1,11 @@
 pub fn example11()
 {
 	say_hello("potato");
-	xprintln!("5 + 4 = {}", get_sum(5,4));
+	xprintln!("5 + 4 = {}", get_sum(5, 4));
 
 	let sum = get_sum;
 
-	xprintln!("6 + 4 = {}", sum(6,4));
+	xprintln!("6 + 4 = {}", sum(6, 4));
 }
 
 fn say_hello(name: &str)

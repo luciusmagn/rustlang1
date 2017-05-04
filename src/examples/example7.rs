@@ -12,7 +12,9 @@ pub fn example7()
 			let mut line = String::new();
 			let input = stdin().read_line(&mut line);
 
-			let guess: Option<i32> = input.ok().map_or(None, |_| line.trim().parse().ok());
+			let guess: Option<i32> = input
+				.ok()
+				.map_or(None, |_| line.trim().parse().ok());
 
 			match guess
 			{
@@ -21,7 +23,7 @@ pub fn example7()
 				{
 					xprintln!("You guessed it");
 					break 'outer;
-				},
+				}
 				Some(n) if n < number => xprintln!("Too low"),
 				Some(n) if n > number => xprintln!("Too big"),
 				Some(_) => xprintln!("Error"),

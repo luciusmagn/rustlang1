@@ -1,21 +1,24 @@
 pub fn example14()
 {
-	let circle1 = Circle
-	{
+	let circle1 = Circle {
 		x: 10.0,
 		y: 10.0,
-		radius: 10.0
+		radius: 10.0,
 	};
 
-	xprintln!("X: {} Y: {} R: {}", circle1.x, circle1.y, circle1.radius);
+	xprintln!(
+		"X: {} Y: {} R: {}",
+		circle1.x,
+		circle1.y,
+		circle1.radius
+	);
 	xprintln!("Circle Radius: {}", get_radius(&circle1));
 	xprintln!("Circle X: {}", circle1.get_x());
 	xprintln!("Circle Area: {}", circle1.area());
 
-	let rect1 = Rectangle
-	{
+	let rect1 = Rectangle {
 		height: 10.0,
-		width: 10.0
+		width: 10.0,
 	};
 
 	xprintln!("Rectangle Area: {}", rect1.area());
@@ -25,7 +28,7 @@ struct Circle
 {
 	x: f64,
 	y: f64,
-	radius: f64
+	radius: f64,
 }
 
 

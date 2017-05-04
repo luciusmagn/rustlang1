@@ -7,19 +7,15 @@ mod examples;
 use examples::*;
 use ansi_term::Colour::*;
 
-static mut EXAMPLE_COUNT:u8 = 0;
+static mut EXAMPLE_COUNT: u8 = 0;
 
 pub fn example(f: &Fn())
 {
-	unsafe
-	{
+	unsafe {
 		EXAMPLE_COUNT += 1;
-		println!("{}",
-			Yellow.paint(
-				format!("Example {} output:",
-						 EXAMPLE_COUNT
-				)
-			)
+		println!(
+			"{}",
+			Yellow.paint(format!("Example {} output:", EXAMPLE_COUNT))
 		);
 		f();
 	}

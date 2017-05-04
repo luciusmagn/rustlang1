@@ -1,7 +1,8 @@
-//macro for indenting examples
+// macro for indenting examples
 
 #[macro_export]
-macro_rules! xprintln {
+macro_rules! xprintln
+{
     () => (print!("\n"));
     ($fmt:expr) =>
     ({

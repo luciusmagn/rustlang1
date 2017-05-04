@@ -1,9 +1,9 @@
 pub fn example13()
 {
-	let vect1 = vec![1,2,3];
+	let vect1 = vec![1, 2, 3];
 	let vect2 = vect1;
-	//this is invalid
-	//xprintln!("vect1[0] = {}", vect1[0]);
+	// this is invalid
+	// xprintln!("vect1[0] = {}", vect1[0]);
 	xprintln!("vect2[0] = {}", vect2[0]);
 
 	let prim_val = 1;
@@ -17,6 +17,12 @@ pub fn example13()
 
 fn sum_vects(v1: &Vec<i32>) -> i32
 {
-	let sum = v1.iter().fold(0, |mut sum, &x| {sum += x; sum});
+	let sum = v1.iter()
+		.fold(
+			0, |mut sum, &x| {
+				sum += x;
+				sum
+			}
+		);
 	sum
 }

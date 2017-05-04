@@ -4,18 +4,18 @@ pub fn example5()
 	loop
 	{
 		if (x % 2) == 0
-	 	{
-	 		xprintln!("LOOP {}", x);
-	 		x+=1;
+		{
+			xprintln!("LOOP {}", x);
+			x += 1;
 
-	 		continue;
-	 	}
+			continue;
+		}
 		if x > 10
 		{
 			break;
 
 		}
-		x+=1;
+		x += 1;
 		continue;
 	}
 
@@ -23,7 +23,7 @@ pub fn example5()
 	while y <= 10
 	{
 		xprintln!("WHILE {}", y);
-		y+=1
+		y += 1
 	}
 
 	for z in 1..10

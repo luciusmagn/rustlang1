@@ -23,7 +23,7 @@ pub fn example4()
 	xprintln!("true || false = {}", true || false);
 	xprintln!("true != fasle = {}", true != false);
 
-	let can_vote = if age_old >= 18 {true} else {false};
+	let can_vote = if age_old >= 18 { true } else { false };
 
 	xprintln!("Can vote: {}", can_vote);
 }

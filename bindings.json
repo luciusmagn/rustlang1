@@ -1,0 +1,13 @@
+{
+    "CtrlK": "CutLine",
+    "CtrlU": "Paste",
+    "CtrlX": "Quit",
+    "CtrlW": "Find",
+    "Alt-w": "FindNext",
+    "AltLeft": "PreviousSplit",
+    "AltRight": "NextSplit",
+    "Alt-x": "VSplit",
+    "Alt-y": "HSplit",
+    "CtrlQ": "UnbindKey"
+}
+
