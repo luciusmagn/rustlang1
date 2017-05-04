@@ -38,4 +38,5 @@ fn main()
 	example(&example9);
 	example(&example10);
 	example(&example11);
+	example(&example12);
 }
