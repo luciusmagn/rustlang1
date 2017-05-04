@@ -33,4 +33,6 @@ fn main()
 	example(&example4);
 	example(&example5);
 	example(&example6);
+	example(&example7);
+	example(&example8);
 }
